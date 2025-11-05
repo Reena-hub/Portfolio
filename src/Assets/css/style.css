@@ -1,0 +1,69 @@
+*{ margin: 0; padding: 0; box-sizing: border-box;}
+html{scroll-behavior: smooth;}
+body{ font-family: "Montserrat", sans-serif ; font-weight: 400; font-style: normal; font-size: 14px;background-color: #ecf3f1 }
+a{text-decoration: none;}
+ul{list-style-type: none; margin: 0}
+img{ max-width: 100%;}
+:root{--primary: #448C74; --white: #fff; --secondary: #ecf3f1; --black: #000; --grey: #808080; --border: #77777d33 }
+.cursor-pointer{cursor: pointer;}
+.section-gap{margin: 40px 0 !important;}
+
+/* Buttons */
+.btn-theme{background-color: var(--primary) ; border: 1px solid var(--primary) !important; color: var(--white) ; font-weight: 500;}
+.btn-theme:hover{background-color: var(--secondary) ; color: var(--primary) ;}
+
+/* Header */
+header{padding: 20px; position: sticky; top: 0; background: var(--secondary); z-index: 1;}
+.header-logo{height: 60px; display: flex;}
+.header-ul{font-weight: 500; font-size: 16px;}
+.header-ul li{cursor: pointer;}
+.header-ul li:hover{color: var(--primary); transition: all .5s;}
+
+/* About section */
+.about-card{padding: 40px; background-color: var(--white); border-radius: 20px;box-shadow: rgba(255, 255, 255, 0.025) 0px 0.362176px 0.651917px -1px inset, rgba(255, 255, 255, 0.036) 0px 3px 5.4px -2px inset;}
+.profile{padding: 10px; border: 2px dashed var(--primary); border-radius: 50%; height: 280px; width: 280px;}
+.profile img {border-radius: 50%;}
+.proifle-data{font-size: 16px; color: var(--primary); text-align: center;}
+.social-media{border: 1px solid #eee; padding:8px 15px; border-radius: 10px; color: var(--grey); font-size: 20px;}
+.social-media:hover{color: var(--primary)}
+.hello{font-size: 16px; font-weight: 500; color: var(--primary)}
+.download-btn{border-radius: 10px; padding: 10px 20px; font-size: 14px;}
+.download-btn:hover{background-color: var(--white) !important;}
+.marquee { width: 100%; overflow: hidden; white-space: nowrap; box-sizing: border-box;}
+.marquee p { display: inline-block; padding-left: 100%; animation: marquee 20s linear infinite; margin-bottom: 0; font-size: 18px;}
+.about-p{font-size: 16px;}
+@keyframes marquee { 0% { transform: translateX(0%); } 100% { transform: translateX(-100%); }}
+.media-icons{height: 24px;}
+
+/* Services */
+.sub-title{text-align: center; font-size: 16px; font-weight: 500; color: var(--grey);}
+.title{font-weight: 600; margin-bottom: 30px}
+.quality-cards{border: 1px solid var(--border); border-radius: 10px; padding: 40px; height: 100%;}
+.quality-cards:hover{border: 1px solid var(--primary); transition: all 0.3s ease-in-out;}
+.card-title{font-size: 18px; font-weight: 600; color: #444; margin-bottom: 12px;}
+.card-para{margin-bottom: 0; font-size: 15px; color: var(--grey)}
+.card-icons{margin-bottom: 18px; font-size: 36px; color: var(--primary);}
+
+/* Experience and Education */
+.icons-exp{padding: 5px 12px; border: 1px solid #eeeeee75; background-color: #eeeeee75; border-radius: 10px; color: var(--primary); font-size: 18px;}
+hr{color:#97979b}
+
+/* Skills */
+.percentage{border: 1px solid var(--primary); margin-top: 15px; padding: 8px; text-align: center; border-radius: 10px; font-size: 16px; font-weight: 700; color: var(--white); background-color: var(--primary);}
+.skill-cards{border: 1px solid var(--border); border-radius: 10px; padding: 30px; height: 100%;}
+.skill-cards:hover{border: 1px solid var(--primary); transition: all 0.3s ease-in-out;}
+/* .skill-cards{border: 1px solid var(--border); border-radius: 10px; padding: 30px; height: 100%; background-color: var(--white);} */
+.project-para{margin-bottom: 0; font-size: 15px; color: var(--grey); text-align: center; padding:0px 250px;}
+.skill-gap{margin: 70px 0px !important}
+
+/* Contact */
+.contact-card{border:1px solid var(--border); border-radius: 10px; height: 100%; padding:50px 30px}
+.question{font-size: 16px; font-weight: 600; margin: 6px 0px; color:#444}
+.answer{font-size: 16px; font-weight: 400;}
+.contact-icons{font-size: 20px; color: var(--primary)}
+.input-form{font-size: 16px; color: var(--black); font-weight: 400; line-height: 1.3; padding: 19px 20px 19px 20px; background: #F9F9F9 !important; border: 1px solid var(--border) !important; border-radius: 10px;}
+.input-form:focus{outline: none !important ; box-shadow: none !important; }
+
+/* Footer */
+footer{display: flex; justify-content: space-between; padding-bottom: 50px; padding-top: 10px;}
+footer{color: #444; font-size: 14px; font-weight: 600;}
