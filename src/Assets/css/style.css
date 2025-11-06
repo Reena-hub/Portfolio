@@ -13,7 +13,7 @@ img{ max-width: 100%;}
 .btn-theme:hover{background-color: var(--secondary) ; color: var(--primary) ;}
 
 /* Header */
-header{padding: 20px; position: sticky; top: 0; background: var(--secondary); z-index: 1;}
+header{padding: 20px; position: sticky; top: 0; background: var(--secondary); z-index: 7;}
 .header-logo{height: 60px; display: flex;}
 .header-ul{font-weight: 500; font-size: 16px;}
 .header-ul li{cursor: pointer;}
@@ -22,7 +22,7 @@ header{padding: 20px; position: sticky; top: 0; background: var(--secondary); z-
 /* About section */
 .about-card{padding: 40px; background-color: var(--white); border-radius: 20px;box-shadow: rgba(255, 255, 255, 0.025) 0px 0.362176px 0.651917px -1px inset, rgba(255, 255, 255, 0.036) 0px 3px 5.4px -2px inset;}
 .profile{padding: 10px; border: 2px dashed var(--primary); border-radius: 50%; height: 280px; width: 280px;}
-.profile img {border-radius: 50%;}
+.profile img {border-radius: 50%;width: 100%; height: 100%; object-fit: cover;}
 .proifle-data{font-size: 16px; color: var(--primary); text-align: center;}
 .social-media{border: 1px solid #eee; padding:8px 15px; border-radius: 10px; color: var(--grey); font-size: 20px;}
 .social-media:hover{color: var(--primary)}
@@ -56,14 +56,25 @@ hr{color:#97979b}
 .project-para{margin-bottom: 0; font-size: 15px; color: var(--grey); text-align: center; padding:0px 250px;}
 .skill-gap{margin: 70px 0px !important}
 
+/* Works and Projects */
+.work-card{border:1px solid var(--border); border-radius: 0px 0px 10px 10px; }
+.work-img{height: 240px; position:relative; display: flex; align-items: center; justify-content: center;}
+.work-link{position: absolute;padding: 18px 20px; background: #448C74; border-radius: 50%; rotate: 328deg; text-align: center; }
+.work-img img{object-fit: cover; height: 100%; z-index: 1; border-radius: 0;}
+.work-card:hover .work-link{ z-index: 3; color: var(--white);}
+.work-img::before{position: absolute; content: "";background-color: #000; opacity: 0.65; height: 100%; width: 100%; z-index: 0;}
+.work-card:hover .work-img::before{z-index: 2;}
+.go-arrow{font-size: 14px;}
+
 /* Contact */
-.contact-card{border:1px solid var(--border); border-radius: 10px; height: 100%; padding:50px 30px}
+.contact-card{border:1px solid var(--border); border-radius: 10px; height: 100%; padding:50px 30px; height: 100%;}
 .question{font-size: 16px; font-weight: 600; margin: 6px 0px; color:#444}
 .answer{font-size: 16px; font-weight: 400;}
 .contact-icons{font-size: 20px; color: var(--primary)}
 .input-form{font-size: 16px; color: var(--black); font-weight: 400; line-height: 1.3; padding: 19px 20px 19px 20px; background: #F9F9F9 !important; border: 1px solid var(--border) !important; border-radius: 10px;}
 .input-form:focus{outline: none !important ; box-shadow: none !important; }
+.contact-main{margin-bottom: 20px !important;}
 
 /* Footer */
-footer{display: flex; justify-content: space-between; padding-bottom: 50px; padding-top: 10px;}
+footer{display: flex; justify-content: space-between; padding: 50px 0px;}
 footer{color: #444; font-size: 14px; font-weight: 600;}
