@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/Portfolio/static/css/main.5b538b67.css",
+    "main.js": "/Portfolio/static/js/main.26f36e0b.js",
+    "static/media/fa-solid-900.woff2": "/Portfolio/static/media/fa-solid-900.8ae0d37556ff1e685de2.woff2",
+    "static/media/device.jpeg": "/Portfolio/static/media/device.4b519a7d85545353d60e.jpeg",
+    "static/media/getmydrive.jpeg": "/Portfolio/static/media/getmydrive.c14d75c4e9081ad4a760.jpeg",
+    "static/media/fa-brands-400.woff2": "/Portfolio/static/media/fa-brands-400.1c5c7716b05754cb4eab.woff2",
+    "static/media/profile.jpeg": "/Portfolio/static/media/profile.951ad95f02f57f131d1e.jpeg",
+    "static/media/blog.jpeg": "/Portfolio/static/media/blog.d03606912ee709cd04be.jpeg",
+    "static/media/Reena.png": "/Portfolio/static/media/Reena.e73ab6edfc42c9e87d3d.png",
+    "static/media/staff.jpeg": "/Portfolio/static/media/staff.133ce882276ef90c311f.jpeg",
+    "static/media/admin.jpeg": "/Portfolio/static/media/admin.82d0c4f5e30f3b65e1a5.jpeg",
+    "static/media/booking.jpeg": "/Portfolio/static/media/booking.780b6d7e713bec246da7.jpeg",
+    "static/media/fa-regular-400.woff2": "/Portfolio/static/media/fa-regular-400.6f05ca9ab7b5345dbc07.woff2",
+    "static/media/fa-v4compatibility.woff2": "/Portfolio/static/media/fa-v4compatibility.e4340c52a50e727c6afa.woff2",
+    "index.html": "/Portfolio/index.html",
+    "main.5b538b67.css.map": "/Portfolio/static/css/main.5b538b67.css.map",
+    "main.26f36e0b.js.map": "/Portfolio/static/js/main.26f36e0b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5b538b67.css",
+    "static/js/main.26f36e0b.js"
+  ]
+}
