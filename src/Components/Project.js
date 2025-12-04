@@ -84,7 +84,7 @@ const Project = () => {
                             <div className="card work-card scroll-animate">
                                 <div className="work-img">
                                     <img src={Device} alt="Project" className="card-img-top" />
-                                    <a href="/" target="_blank" rel="noreferrer" className="work-link">
+                                    <a href="https://reena-hub.github.io/Portfolio/" target="_blank" rel="noreferrer" className="work-link">
                                         <i className="fa-solid fa-arrow-right go-arrow"></i>
                                     </a>
                                 </div>
