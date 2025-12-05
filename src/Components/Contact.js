@@ -57,7 +57,7 @@ const Contact = () => {
                             </div>
                             <div className="my-5 scroll-animate">
                                 <i className="fa-solid fa-phone contact-icons"></i>
-                                <div className="question">Conatct Number:</div>
+                                <div className="question">Contact Number:</div>
                                 <div className="answer">+91 88258 70356</div>
                             </div>
                             <div className="scroll-animate">
