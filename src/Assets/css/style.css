@@ -78,12 +78,13 @@ hr{color:#97979b}
 /* Works and Projects */
 .work-card{border:1px solid var(--border); border-radius: 0px 0px 10px 10px; }
 .work-img{height: 240px; position:relative; display: flex; align-items: center; justify-content: center;}
-.work-link{position: absolute;padding: 18px 20px; background: #448C74; border-radius: 50%; rotate: 328deg; text-align: center; }
+.work-link{position: absolute;padding: 18px 20px; background: #448C74; border-radius: 50%; rotate: 328deg; text-align: center; transition: all 0.5s ease-in-out; color: var(--white) !important;}
 .work-img img{object-fit: cover; height: 100%; z-index: 1; border-radius: 0;}
 .work-card:hover .work-link{ z-index: 3; color: var(--white);}
 .work-img::before{position: absolute; content: "";background-color: #000; opacity: 0.65; height: 100%; width: 100%; z-index: 0;}
 .work-card:hover .work-img::before{z-index: 2;}
 .go-arrow{font-size: 14px;}
+.work-link:hover{transform: rotate(30deg);}
 
 /* Contact */
 .contact-card{border:1px solid var(--border); border-radius: 10px; height: 100%; padding:50px 30px; height: 100%;}

@@ -1,10 +1,10 @@
 import React from "react";
 import Booking from "../Assets/images/booking.jpeg"
-import GetMyDrive from "../Assets/images/getmydrive.jpeg"
+import Caroam from "../Assets/images/CaroamHome.png"
 import Blog from "../Assets/images/blog.jpeg"
-import Admin from "../Assets/images/admin.jpeg"
-import Staff from "../Assets/images/staff.jpeg"
-import Device from "../Assets/images/device.jpeg"
+import Admin from "../Assets/images/Admin.png"
+import Cricovers from "../Assets/images/Cricovers.png"
+import CricoversAdmin from "../Assets/images/CricoversAdmin.png"
 
 const Project = () => {
     return (
@@ -19,14 +19,14 @@ const Project = () => {
 
                             <div className="card work-card scroll-animate">
                                 <div className="work-img">
-                                    <img src={GetMyDrive} alt="Project" className="card-img-top" />
-                                    <a href="https://getmydrive.in/" target="_blank" rel="noreferrer" className="work-link">
+                                    <img src={Caroam} alt="Project" className="card-img-top" />
+                                    <a href="https://caroam.com/" target="_blank" rel="noreferrer" className="work-link">
                                         <i className="fa-solid fa-arrow-right go-arrow"></i>
                                     </a>
                                 </div>
                                 <div className="card-body scroll-animate">
                                     <span>Software</span>
-                                    <h5 className="mt-2">GetMyDrive</h5>
+                                    <h5 className="mt-2">Caroam</h5>
                                 </div>
                             </div>
 
@@ -36,18 +36,18 @@ const Project = () => {
                             <div className="card work-card scroll-animate">
                                 <div className="work-img">
                                     <img src={Admin} alt="Project" className="card-img-top" />
-                                    <a href="https://admin.lecarz.com/" target="_blank" rel="noreferrer" className="work-link">
+                                    <a href="https://admin.getmydrive.in/" target="_blank" rel="noreferrer" className="work-link">
                                         <i className="fa-solid fa-arrow-right go-arrow"></i>
                                     </a>
                                 </div>
                                 <div className="card-body scroll-animate">
                                     <span>Software</span>
-                                    <h5 className="mt-2">GetMyDrive Admin</h5>
+                                    <h5 className="mt-2">Caroam Admin</h5>
                                 </div>
                             </div>
 
                     </div>
-                    <div className="col-lg-4 col-md-6 my-3">
+                    {/* <div className="col-lg-4 col-md-6 my-3">
 
                             <div className="card work-card scroll-animate">
                                 <div className="work-img">
@@ -62,7 +62,7 @@ const Project = () => {
                                 </div>
                             </div>
 
-                    </div>
+                    </div> */}
                     <div className="col-lg-4 col-md-6 my-3">
 
                             <div className="card work-card scroll-animate">
@@ -79,7 +79,7 @@ const Project = () => {
                             </div>
 
                     </div>
-                    <div className="col-lg-4 col-md-6 my-3">
+                    {/* <div className="col-lg-4 col-md-6 my-3">
 
                             <div className="card work-card scroll-animate">
                                 <div className="work-img">
@@ -94,7 +94,7 @@ const Project = () => {
                                 </div>
                             </div>
 
-                    </div>
+                    </div> */}
                     <div className="col-lg-4 col-md-6 my-3">
 
                             <div className="card work-card scroll-animate">
@@ -107,6 +107,40 @@ const Project = () => {
                                 <div className="card-body  scroll-animate">
                                     <span>Branding</span>
                                     <h5 className="mt-2">Blog Management</h5>
+                                </div>
+                            </div>
+
+                    </div>
+
+
+                    <div className="col-lg-4 col-md-6 my-3">
+
+                            <div className="card work-card scroll-animate">
+                                <div className="work-img">
+                                    <img src={Cricovers} alt="Project" className="card-img-top" />
+                                    <a href="https://cricovers.com/news" target="_blank" rel="noreferrer" className="work-link">
+                                        <i className="fa-solid fa-arrow-right go-arrow"></i>
+                                    </a>
+                                </div>
+                                <div className="card-body  scroll-animate">
+                                    <span>Website</span>
+                                    <h5 className="mt-2">CricOvers</h5>
+                                </div>
+                            </div>
+
+                    </div>
+                    <div className="col-lg-4 col-md-6 my-3">
+
+                            <div className="card work-card scroll-animate">
+                                <div className="work-img">
+                                    <img src={CricoversAdmin} alt="Project" className="card-img-top" />
+                                    <a href="https://admin.cricovers.com/" target="_blank" rel="noreferrer" className="work-link">
+                                        <i className="fa-solid fa-arrow-right go-arrow"></i>
+                                    </a>
+                                </div>
+                                <div className="card-body  scroll-animate">
+                                    <span>Panel</span>
+                                    <h5 className="mt-2">CricOvers Admin</h5>
                                 </div>
                             </div>
 
